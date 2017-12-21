@@ -1,0 +1,4 @@
+Nimble;Utility;Trusty;Valuable;Stylish
+Agile;Comfortable;Reliable;Powerful;Attractive
+City focus;Versatile;Safe;Status symbol;Nice design
+Economical;Practical;Sustainable;Technically advanced;Original
