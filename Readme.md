@@ -64,7 +64,7 @@ switch off the minimum spanning tree algorithm and change the confidence level
 
 ### Input data specification
 
-Application reads data from a text file in csv format. It should consists of named columns with {0,1} values. Each column name has the following structure "\<brand name\> | \<attribute name\>". Every <brand> must have the same set of attributes.
+Application reads data from a text file in csv format. It should consists of named columns with {0,1} values. Each column name has the following structure "\<brand name\> | \<attribute name\>". Every \<brand\> must have the same set of attributes.
 
 There are two additional text files to control the brands and attributes sets. One of them contains the list of brands that are the same as in the csv dataset. The second file contains the list of attributes from the csv grouped in the named columns.
 
