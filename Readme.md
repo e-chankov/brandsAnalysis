@@ -14,7 +14,7 @@ Surveys often contain questions in which respondents are able to choose from the
 
 We focus on the typical case where respondents are asked to match a set of attributes for a group of brands. Data in the example is part of the dataset with cars attributes ratings (Van Gysel 2011) that is included to R-package `plfm` (Meulders and De Bruecker 2017). The dataset contains the ratings of 78 respondents about the association between each of 14 car models and each of 15 car attributes.
 
-In the screenshot below you may see (click to zoom it) that 40 respondents supposed that the Fiat 500 is attractive.
+In the screenshot below (each screenshot is clickable to open it in a full size) you may see that 40 respondents supposed that the Fiat 500 is attractive.
 
 [<img src = "screenshots/Overview_tab.png">](https://github.com/e-chankov/brandsAnalysis/blob/master/screenshots/Overview_tab.png?raw=true)
 
