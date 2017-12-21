@@ -10,7 +10,6 @@ Surveys often contain questions in which respondents are able to choose from the
 <p align="center">
 <img src="screenshots/CustomerSatisfactoinTemplate_CATAquestion.png">
 </p>
-
 ### Data used in the application
 
 We focus on the typical case where respondents are asked to match a set of attributes for a group of brands. Data in the example is part of the dataset with cars attributes ratings (Van Gysel 2011) that is included to R-package `plfm` (Meulders and De Bruecker 2017). The dataset contains the ratings of 78 respondents about the association between each of 14 car models and each of 15 car attributes.
@@ -45,7 +44,7 @@ This is a way to understand the associations between the cars (in terms of custo
 
 An edge connects two nodes with cars if they are not independent within the specified set of attributes. To reject independence between two car models with the specified confidence level we use the chi-square test with the 2nd order Rao-Scott adjustment. This approach was proposed in the article (Bilder and Loughin 2004).
 
-Package `MRCV` (Koziol and Bilder 2014) provides such kind of routines, but the application uses an improved implementation of this test. Details can be found in this [repository](https://github.com/e-chankov/MItest_improvements).
+Package `MRCV` (Koziol and Bilder 2014) provides such kind of routines, but the application uses an improved implementation of this test. Details can be found in this [repository](https://github.com/e-chankov/MItest_improvements) (Chankov 2017).
 
 In additions, if a node of the network is selected, you may see the tree map chart with non-adjusted chi-square values.
 
@@ -65,7 +64,7 @@ switch off the minimum spanning tree algorithm and change the confidence level
 
 ### Input data specification
 
-Application reads data from a text file in csv format. It should consists of named columns with {0,1} values. Each column name has the following structure "\<brand name\> | \<attribute name\>". Every \<brand\> must have the same set of attributes.
+Application reads data from a text file in csv format. It should consists of named columns with {0,1} values. Each column name has the following structure "&lt;brand name&gt; | &lt;attribute name&gt;". Every &lt;brand&gt; must have the same set of attributes.
 
 There are two additional text files to control the brands and attributes sets. One of them contains the list of brands that are the same as in the csv dataset. The second file contains the list of attributes from the csv grouped in the named columns.
 
@@ -95,6 +94,8 @@ There are two additional text files to control the brands and attributes sets. O
 ### References
 
 Bilder, C., and T. Loughin. 2004. “Testing for Marginal Independence Between Two Categorical Variables with Multiple Responses.” *Biometrics* 60 (1): 241–48. <http://dx.doi.org/10.1111/j.0006-341X.2004.00147.x>.
+
+Chankov, E. 2017. *Improved Implementation of the Marginal Independence Test* (version 0.1). <https://github.com/e-chankov/MItest_improvements>.
 
 Fagerland, Morten W., Stian Lydersen, and Petter Laake. 2013. “The Mcnemar Test for Binary Matched-Pairs Data: Mid-P and Asymptotic Are Better Than Exact Conditional.” *BMC Medical Research Methodology* 13 (1): 91. <https://doi.org/10.1186/1471-2288-13-91>.
 
