@@ -10,6 +10,7 @@ Surveys often contain questions in which respondents are able to choose from the
 <p align="center">
 <img src="screenshots/CustomerSatisfactoinTemplate_CATAquestion.png">
 </p>
+
 ### Data used in the application
 
 We focus on the typical case where respondents are asked to match a set of attributes for a group of brands. Data in the example is part of the dataset with cars attributes ratings (Van Gysel 2011) that is included to R-package `plfm` (Meulders and De Bruecker 2017). The dataset contains the ratings of 78 respondents about the association between each of 14 car models and each of 15 car attributes.
