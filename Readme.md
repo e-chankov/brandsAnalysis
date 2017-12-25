@@ -77,7 +77,7 @@ There are two additional text files to control the brands and attributes sets. O
     library(shinyBS)        # version 0.61
     library(shinyWidgets)   # version 0.3.6
 
-    #### libraries to visualization
+    #### libraries for visualization
     library(wordcloud2)     # version 0.2.0
     library(highcharter)    # version 0.5.0
     library(googleVis)      # version 0.6.2
